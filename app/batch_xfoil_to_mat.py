@@ -28,7 +28,7 @@ except ImportError:
     exit()
 
 # --- Configurações principais ---
-GEOMETRY_FOLDER = "2e63_naca4412_6_interpolados"   # pasta onde os .dat das etapas estão (pode ser subpasta)
+GEOMETRY_FOLDER = "e63_naca4412_10_interpolados"   # pasta onde os .dat das etapas estão (pode ser subpasta)
 GEOMETRY_PATTERN = "e63_naca4412_rR_*.dat"  # padrão para encontrar os .dat gerados pelo morph
 REYNOLDS_LIST = [2e4, 4.5e4, 7.5e4, 1e5, 2.5e5, 5e5, 7.5e5, 1e6]  # mesma lista do seu script
 ALPHA_GRID = np.arange(-90, 91.1, 1.0)  # -90 a +91 (passo 1.0)

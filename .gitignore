@@ -11,6 +11,7 @@ fort.*
 node*.txt
 
 *.pdf
+*.zip
 
 # Arquivos de dados grandes ou resultados (Opcional)
 # Se quiser que os resultados .mat não subam, descomente a linha abaixo:

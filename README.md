@@ -112,24 +112,26 @@ Isso irá gerar uma pasta com os arquivos `.dat` interpolados, por exemplo:
 - `e63_naca4412_10_interpolados10x7e/`
 - `e63_naca4412_6_interpolados27x13e/`
 
-Os nomes podem variar conforme a configuração interna do script.
+Os nomes podem variar conforme a configuração interna do script.em 
+`linha 96 :   out_dir = f"{name1}_{name2}_{len(interpolation_steps)}_interpolados" `
 
 ### 5.3 Ajustar os pesos de interpolação
 
 No final de `morph_airfoil.py`, há duas listas de pesos:
-- `pesos_interpolacao`: usa a faixa fixa `[0.22, 0.72]` para gerar estações de 0.25 a 0.70.
-- `pesos_interpolacao_27x13E`: usa o intervalo real de `r/R` baseado em `start_rR` e `end_rR` do arquivo PE0.
+- `pesos_interpolacao`: usa a faixa fixa `[0.22, 0.72]` para gerar estações de 0.25 a 0.70, baseado em `start_rR` e `end_rR` do arquivo PE0 do 10x7E.
+- `pesos_interpolacao_27x13E`: usa o intervalo real de `r/R` baseado em `start_rR` e `end_rR` do arquivo PE0 do 27x13E.
 
 Altere a lista usada na chamada `morph_airfoils(...)` para gerar os perfis desejados.
 
 ## 6. Gerando as polares para MATLAB
 
 Após gerar os arquivos `.dat` interpolados, use o `batch_xfoil_to_mat.py` para processá-los e criar arquivos `.mat` com a struct `polar`.
+Segue o exemplo gerando os perfis para 10x7E usando a lista de `pesos_interpolacao`
 
 ### 6.1 Requisitos de entrada
 
 - Coloque os arquivos `.dat` interpolados em uma subpasta de `app/`, como:
-  - `app/2e63_naca4412_6_interpolados/`
+  - `app/e63_naca4412_10_interpolados/`
 
 - Ajuste a variável `GEOMETRY_FOLDER` em `app/batch_xfoil_to_mat.py` para o nome da pasta que contém esses `.dat`.
 - Ajuste `GEOMETRY_PATTERN` caso seus arquivos tenham nome diferente.

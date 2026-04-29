@@ -192,5 +192,5 @@ if __name__ == "__main__":
     # Chama a função principal com a lista de pesos
     morph_airfoils(arquivo1, 
                    arquivo2, 
-                   pesos_interpolacao_27x13E, 
+                   pesos_interpolacao, 
                    num_points_per_surface=80)
