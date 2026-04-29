@@ -2,6 +2,10 @@
 
 Este repositório contém scripts para interpolação de aerofólios, geração de arquivos `.dat` de perfis intermediários e execução em lote do XFoil para gerar polares que podem ser usados em MATLAB.
 
+> Se você baixou este projeto do GitHub como um arquivo `.zip`, extraia todo o conteúdo para uma pasta local antes de seguir os passos abaixo. Em geral, use o botão `Code -> Download ZIP` e depois clique com o botão direito no arquivo `.zip` para descompactar.
+>
+> Todos os comandos `cd` abaixo assumem que o repositório foi descompactado em uma pasta local. Substitua `C:\Users\pedro\Downloads\multiperfil_xfoil\projeto-aerodinamica` pelo caminho correto da sua extração.
+
 ## 1. Estrutura do repositório
 
 - `app/`
@@ -40,7 +44,7 @@ conda activate xfoil_py37
 3. Instale as dependências do `requirements.txt`:
 
 ```powershell
-cd C:\Users\pedro\Downloads\multiperfil_xfoil\projeto-aerodinamica
+cd <caminho\para\pasta\projeto-aerodinamica>
 pip install -r requirements.txt
 ```
 
@@ -81,7 +85,7 @@ pip install xfoil
 Execute o teste inicial para confirmar que o pacote `xfoil` está funcionando:
 
 ```powershell
-cd C:\Users\pedro\Downloads\multiperfil_xfoil\projeto-aerodinamica\app
+cd <caminho\para\pasta\projeto-aerodinamica>\app
 python teste.py
 ```
 
