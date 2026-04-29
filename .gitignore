@@ -10,7 +10,7 @@ __pycache__/
 fort.*
 node*.txt
 
-.pdf
+*.pdf
 
 # Arquivos de dados grandes ou resultados (Opcional)
 # Se quiser que os resultados .mat não subam, descomente a linha abaixo:
