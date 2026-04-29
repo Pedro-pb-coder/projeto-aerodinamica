@@ -4,7 +4,7 @@ Este repositório contém scripts para interpolação de aerofólios, geração 
 
 > Se você baixou este projeto do GitHub como um arquivo `.zip`, extraia todo o conteúdo para uma pasta local antes de seguir os passos abaixo. Em geral, use o botão `Code -> Download ZIP` e depois clique com o botão direito no arquivo `.zip` para descompactar.
 >
-> Todos os comandos `cd` abaixo assumem que o repositório foi descompactado em uma pasta local. Substitua `C:\Users\pedro\Downloads\multiperfil_xfoil\projeto-aerodinamica` pelo caminho correto da sua extração.
+> Todos os comandos `cd` abaixo assumem que o repositório foi descompactado em uma pasta local. Substitua `C:\Users\pedro\Downloads\multiperfil_xfoil\projeto-aerodinamica` pelo caminho correto da sua extração. (Ao obter o .zip, o arquivo tem nome  projeto-aerodinamica-main)
 
 ## 1. Estrutura do repositório
 
