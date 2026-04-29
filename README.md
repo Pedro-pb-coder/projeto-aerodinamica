@@ -10,8 +10,7 @@ Este repositório contém scripts para interpolação de aerofólios, geração 
   - `batch_xfoil_to_mat.py`: processa arquivos `.dat` gerados pelo `morph_airfoil.py` e salva `.mat` para MATLAB.
   - `teste.py`: teste rápido para validar se o pacote `xfoil` está configurado.
 - `requirements.txt`: lista de dependências do Python necessárias.
-- `README.txt`: anotações de uso originais.
-- `app/data/`: arquivos Selig dos perfis originais.
+- `app/data/`: arquivos Selig dos perfis originais + resultados prévios para comparação.
 
 ## 2. Pré-requisitos
 
