@@ -1,0 +1,19 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# Logs e arquivos temporários do Xfoil
+*.log
+fort.*
+node*.txt
+
+# Arquivos de dados grandes ou resultados (Opcional)
+# Se quiser que os resultados .mat não subam, descomente a linha abaixo:
+# *.mat
+
+# Configurações de IDE
+.vscode/
+.idea/
