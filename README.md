@@ -169,6 +169,7 @@ Esses arquivos `.mat` podem ser carregados no MATLAB para análise ou uso em scr
 4. Executar `app/morph_airfoil.py` para gerar perfis `.dat` interpolados.
 5. Ajustar `app/batch_xfoil_to_mat.py` e executar para gerar `.mat`.
 6. Usar os `.mat` gerados como entrada no código MATLAB.
+7. A pasta gerada contendo `.mat`, exemplo `e63_naca4412_10_interpolados` pode ser adicionada a pasta Data do código MATLAB, com a nomenclatura atualizada em init e na coluna AIRFOIL_MAP da geometria usada para corretamente referencias a pasta gerada. 
 
 ## 8. Dicas rápidas
 
